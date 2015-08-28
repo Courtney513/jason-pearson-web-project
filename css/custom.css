@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+/* --------- 
+	HERO
+------------ */
 #homepage-hero {
   background-image:url('http://placehold.it/1400x1000');
   height: 680px;
@@ -18,9 +22,18 @@
 	background-color:#F3F2F2;
 	width:100%;
 	}
-  @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     #homepage-hero {
-      padding: 40px 5px 30px 5px; } }
+      padding: 40px 5px 30px 5px;
+	  background-image:url('http://placehold.it/500x900'); 
+	  height:500px;
+	  } 
+	#homepage-hero-type {
+		position: relative;
+		top:100px;
+	} 
+	/*
+	  }
   @media screen and (max-width: 1024px) {
     #homepage-hero {
       height: 500px; } }
@@ -69,13 +82,17 @@
         width: 100%;
         position: absolute;
         right: 0;
-        bottom: 0px; } }
+        bottom: 0px; } } */
 #testimonial-callout-img {
   background-image:url('http://placehold.it/95x102');
   height: 102px;
   text-align: center;
   position: relative;
  }
+ 
+ /* --------- 
+	ABOUT
+------------ */
 #about-img {
   background-image:url('http://placehold.it/145x502');
   height: 502px;
