@@ -73,9 +73,19 @@
   position: relative;
  }
 #about-img {
-  background-image:url('http://placehold.it/145x232');
-  height: 232px;
+  background-image:url('http://placehold.it/145x502');
+  height: 502px;
   text-align: center;
   position: relative;
   background-repeat:no-repeat;
  }
+
+@media only screen and (min-width:40em) {
+	#about-img {
+  background-image:url('http://placehold.it/510x690');
+  height: 690px;
+  text-align: center;
+  position: relative;
+  background-repeat:no-repeat;
+ }
+	}
