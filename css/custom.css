@@ -4,9 +4,6 @@
 /* ------------------- 
 	SPACING AND MARGIN
 -------------------- */
-h2:first-of-type {
-margin:0 9rem;	
-}
 .section-margin {
 margin-bottom:15rem;	
 }
@@ -21,7 +18,7 @@ margin-bottom:15rem;
 ------------ */
 #homepage-hero {
   background-image:url('http://placehold.it/1400x1000');
-  height: 680px;
+  height: 42.5em; 
   text-align: center;
   position: relative;
   width:100%; }
@@ -36,24 +33,28 @@ margin-bottom:15rem;
 	background-color:#F3F2F2;
 	width:100%;
 	}
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #homepage-hero {
       padding: 40px 5px 30px 5px;
 	  background-image:url('http://placehold.it/500x900'); 
-	  height:500px;
-	  } 
+	  height:31.25em;
+	  }
 	#homepage-hero-type {
 		position: relative;
 		top:100px;
 	} 
+	#testimonial-callout-img {
+  text-align: center;
+  position: relative;
  }
+}
 	
-#testimonial-callout-img {
+/* #testimonial-callout-img {
   background-image:url('http://placehold.it/95x102');
   height: 102px;
   text-align: center;
   position: relative;
- }
+ } */
  
  /* --------- 
 	ABOUT
@@ -62,6 +63,7 @@ margin-bottom:15rem;
 	background-image:url('http://placehold.it/145x502');
   background-position:right;
   background-repeat:no-repeat;
+
 	}
 
 @media only screen and (min-width:40em) {
@@ -69,7 +71,6 @@ margin-bottom:15rem;
 	background-image:url('http://placehold.it/510x690');
   background-position:right;
   background-repeat:no-repeat;
-  margin: 100px 0 150px 10px;
 	}
 	}
 	
