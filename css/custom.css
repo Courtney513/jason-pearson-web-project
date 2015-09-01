@@ -47,57 +47,7 @@ margin-bottom:15rem;
 		top:100px;
 	} 
  }
-	/* Not sure if we need this code here... 
-	  
-  @media screen and (max-width: 1024px) {
-    #homepage-hero {
-      height: 500px; } }
-  #homepage-hero h1 {
-    font-size: 4em;
-    color: #fff;
-    font-weight: 500;
-    margin-bottom: 0;
-    line-height: 100%; }
-    @media screen and (max-width: 768px) {
-	#homepage-hero-type {
-	position: relative;
-	top:100px;
-	font-size:1em;
-	}
-	.hero-type {
-		font-size:.8em;
-		}
-   #homepage-hero h1 {
-        font-size: 50px; } }
-  #homepage-hero h4 {
-    font-size: 1.35em;
-    color: #fff;
-    font-weight: 300; }
-  #homepage-hero h3 {
-    color: #fff; }
-    @media screen and (max-width: 768px) {
-      #homepage-hero h3 {
-        font-size: 18px;
-        line-height: 28px; } }
-  #homepage-hero .floatingyeti img {
-    max-width: 50%;
-    position: absolute;
-    right: 100px;
-    top: 30px; }
-    @media only screen and (max-width: 40em) {
-      #homepage-hero .floatingyeti img {
-        width: 100%;
-        position: relative;
-        right: 0;
-        bottom: 0px;
-        top: 0px;
-        left: 120px; } }
-    @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-      #homepage-hero .floatingyeti img {
-        width: 100%;
-        position: absolute;
-        right: 0;
-        bottom: 0px; } } */
+	
 #testimonial-callout-img {
   background-image:url('http://placehold.it/95x102');
   height: 102px;
@@ -113,21 +63,17 @@ margin-bottom:15rem;
   background-position:right;
   background-repeat:no-repeat;
 	}
-/* #about-img {
-  background-image:url('http://placehold.it/145x502');
-  text-align: center;
-  position: relative;
-  background-repeat:no-repeat;
- } */
+
 @media only screen and (min-width:40em) {
 #about {
 	background-image:url('http://placehold.it/510x690');
   background-position:right;
   background-repeat:no-repeat;
+  margin: 100px 0 150px 10px;
 	}
 	}
 	
-	 /* --------- 
+/* --------- 
 	FOOTER
 ------------ */
 .social-icons {
