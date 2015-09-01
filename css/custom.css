@@ -1,6 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* ------------------- 
+	SPACING AND MARGIN
+-------------------- */
+h2:first-of-type {
+margin:0 9rem;	
+}
+.section-margin {
+margin-bottom:15rem;	
+}
+
+/* ------------------- 
+	SPACING AND MARGIN
+-------------------- */
 
 
 /* --------- 
@@ -97,24 +110,18 @@
 ------------ */
 #about {
 	background-image:url('http://placehold.it/145x502');
-  height: 502px;
   background-position:right;
   background-repeat:no-repeat;
-  margin: 100px 0 150px 10px;
 	}
 /* #about-img {
   background-image:url('http://placehold.it/145x502');
-  height: 502px;
   text-align: center;
   position: relative;
   background-repeat:no-repeat;
-  padding-left: 0px; 
-  margin-left: 0px;
  } */
 @media only screen and (min-width:40em) {
 #about {
 	background-image:url('http://placehold.it/510x690');
-  height: 690px;
   background-position:right;
   background-repeat:no-repeat;
 	}
