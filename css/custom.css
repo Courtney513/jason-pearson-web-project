@@ -6,9 +6,8 @@
 -------------------- */
 
 .section-margin {
-margin-bottom:15rem;	
+	margin-bottom: 15rem;
 }
-
 /* ------------------- 
 	SPACING AND MARGIN
 -------------------- */
@@ -18,74 +17,36 @@ margin-bottom:15rem;
 /* --------- 
 	HERO
 ------------ */
-.hero{
-	background:url(../img/hero-img-woman.jpg);
-	background-size:cover;
-	box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.15);
-	height:80%;
-}
-
-.intro-text{
-	padding-top:40%;
-	color:rgba(255,255,255,1);
-	text-align:center;
-	}
-
-
-/* max-width 640px, mobile-only styles, use when QAing mobile issues */
-@media only screen and (max-width: 40em) { 
 .hero {
-background-size:640px auto;
-background-repeat:no-repeat;
+	background: url(../img/hero-img-woman.jpg);
+	background-size: cover;
+	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	height: 80%;
 }
-.intro-text{
-		padding-top:10%;
-		}
-} 
-
-@media only screen and (min-width: 40.063em) {
-	.intro-text{
-		padding-top:25%;
-		}
-	}
-@media only screen and (min-width: 64.063em) {
-	.intro-text{
-		padding-top:18%;}
-	}
-.intro-text p{
-	font-size:44px;
+.intro-text {
+	padding-top: 40%;
+	color: rgba(255,255,255,1);
+	text-align: center;
+}
+.intro-text p {
+	font-size: 44px;
 }
 .left-margin {
 	margin-left: 3.125rem;
-	}
-.panel {
-	background-color:#F3F2F2;
-	width:100%;
-	}
-@media screen and (max-width: 48rem) {
-	#testimonial-callout-img {
-  text-align: center;
-  position: relative;
- }
 }
-	
- /* --------- 
+.panel {
+	background-color: #F3F2F2;
+	width: 100%;
+}
+/* --------- 
 	ABOUT
 ------------ */
 #about {
-	background:url(../img/about-img-jason.png) no-repeat;
-  background-position:right;
-  background-repeat:no-repeat;
+	background: url(../img/about-img-jason.png) no-repeat;
+	background-position: right;
+	background-repeat: no-repeat;
+}
 
-	}
-
-@media only screen and (min-width:40rem) {
-#about {
-	background:url(../img/about-img-jason.png) no-repeat;
-  background-position:right;
-  background-repeat:no-repeat;
-	}
-	}
  /* ------------- 
 	TESTIMONIALS
 ----------------- */
@@ -98,24 +59,61 @@ background-repeat:no-repeat;
 display:inline;	
 }*/
 
-/* min-width 641px, medium screens */
-@media only screen and (min-width: 40.063em) { 
-footer {
-	text-align:center;
-margin:0 18.75rem;	
-}
+/* --------- ----
+	MEDIA QUERIES
+----------------- */
+// Small screens @media only screen {
+} /* Define mobile styles */
 
-.footer-phone-number {
-	padding:0 6.9rem 0 0;
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+.hero {
+	background-size: 640px auto;
+	background-repeat: no-repeat;
+}
+.intro-text {
+	padding-top: 10%;
+}
+}
+ // Medium screens @media only screen and (min-width: 40.063em) {
+ .intro-text {
+ padding-top:25%;
+}
+ #about {
+ background:url(../img/about-img-jason.png) no-repeat;
+ background-position:right;
+ background-repeat:no-repeat;
+}
+ footer {
+ text-align:center;
+margin:0 18.75rem;
+}
+ .footer-phone-number {
+ padding:0 6.9rem 0 0;
 }
 .footer-email {
-	padding:0 1.9rem 0 0;
-}	
-} 
+ padding:0 1.9rem 0 0;
+}
+} /* min-width 641px, medium screens */
 
-/* min-width 1025px, large screens */
-@media only screen and (min-width: 64.063em) { 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+#testimonial-callout-img {
+	text-align: center;
+	position: relative;
+}
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+ // Large screens @media only screen and (min-width: 64.063em) {
+ .intro-text {
+ padding-top:18%;
+}
+} /* min-width 1025px, large screens */
 
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+ // XLarge screens @media only screen and (min-width: 90.063em) {
+} /* min-width 1441px, xlarge screens */
 
-} 
-
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+ // XXLarge screens @media only screen and (min-width: 120.063em) {
+} /* min-width 1921px, xxlarge screens */
