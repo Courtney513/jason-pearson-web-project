@@ -17,13 +17,13 @@ margin-bottom:15rem;
 /* --------- 
 	HERO
 ------------ */
-#homepage-hero {
+/*#homepage-hero {
   background:url(../img/hero-img-woman.jpg) no-repeat;
   background-size: 87.5em;
   height: 42.5em; 
   text-align: center;
   position: relative;
-  width:100%; }
+  width:100%; } */
 #homepage-hero-type {
 	position: relative;
 	top:15.625rem;
