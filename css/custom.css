@@ -67,7 +67,7 @@ margin-bottom:15rem;
 
 	}
 
-@media only screen and (min-width:40em) {
+@media only screen and (min-width:40rem) {
 #about {
 	background:url(../img/about-img-jason.png) no-repeat;
   background-position:right;
@@ -82,6 +82,28 @@ margin-bottom:15rem;
 /* --------- 
 	FOOTER
 ------------ */
-.social-icons {
+/*.social-icons { -------SOCIAL ICON CSS---------
 display:inline;	
+}*/
+
+/* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+footer {
+	text-align:center;
+margin:0 18.75rem;	
 }
+
+.footer-phone-number {
+	padding:0 6.9rem 0 0;
+}
+.footer-email {
+	padding:0 1.9rem 0 0;
+}	
+} 
+
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) { 
+
+
+} 
+
