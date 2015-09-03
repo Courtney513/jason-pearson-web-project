@@ -66,6 +66,21 @@
 display:inline;	
 }*/
 
+footer {
+ text-align:center;
+margin:0 18rem;
+}
+ .footer-phone-number {
+ padding:0 6.9rem 0 0;
+}
+.footer-email {
+ padding:0 1.9rem 0 0;
+}
+
+
+/* --------- 
+	FOOTER
+------------ */
 /* --------- ----
 	MEDIA QUERIES
 ----------------- */
@@ -99,16 +114,7 @@ display:inline;
  background-position:right;
  background-repeat:no-repeat;
 }
- footer {
- text-align:center;
-margin:0 18.75rem;
-}
- .footer-phone-number {
- padding:0 6.9rem 0 0;
-}
-.footer-email {
- padding:0 1.9rem 0 0;
-}
+ 
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -123,12 +129,29 @@ margin:0 18.75rem;
   @media only screen and (min-width: 64.063em) {
  .intro-text {
  padding-top:18%;
+ }
+ 
+ h4 {
+    padding: 0 0 0 40rem;
+	}
+.footer-phone-number {
+	  padding:0 6.8rem 0 0;
 }
+
+.footer-email {
+	padding:0 1.9rem 0 0;
+}
+
+small {
+	padding:0 0 0 42rem;
+}
+
 } /* min-width 1025px, large screens */
 
 
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
+	
 } 
 
 /*--------LARGE SCREENS------------*/
@@ -137,7 +160,11 @@ margin:0 18.75rem;
  /* min-width 1441px, xlarge screens */
   @media only screen and (min-width: 90.063em) {
 	  
-} 
+	  .footer-phone-number {
+	  background-color:yellow;
+}
+	  
+  }
 /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
 } /* min-width 1921px, xxlarge screens */
