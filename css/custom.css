@@ -26,11 +26,10 @@
 .intro-text {
 	padding-top: 20%;
 	color: rgba(255,255,255,1);
-	text-align: center;
 	padding-bottom: 18.750em;
 	}
 .intro-text p {
-	font-size: 44px;
+	font-size: 1.25em;
 }
 .left-margin {
 	margin-left: 3.125rem;
@@ -46,9 +45,13 @@
 	background: url(../img/about-img-jason.png) no-repeat;
 	background-position: right;
 	background-repeat: no-repeat;
+	margin-top:9.375em;
 }
 #about-spacing {
 	margin-bottom: 9.375em;
+	}
+.about-paragraph {
+	margin-bottom: 80px;
 	}
 
  /* ------------- 
@@ -107,7 +110,14 @@ margin:0 18rem;
 /*--------MEDIUM SCREENS------------*/
   @media only screen and (min-width: 40.063em) {
  .intro-text {
- padding-top:25%;
+ padding-top:15%;
+ padding-bottom:.5em;
+}
+.hero {
+	background: url(../img/hero-img-woman.jpg) no-repeat;
+	background-size: 100%;
+	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	height: 80%;
 }
  #about {
  background:url(../img/about-img-jason.png) no-repeat;
@@ -127,10 +137,16 @@ margin:0 18rem;
 /*--------LARGE SCREENS------------*/
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
   @media only screen and (min-width: 64.063em) {
+.hero {
+	background: url(../img/hero-img-woman.jpg);
+	background-size: cover;
+	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	height: 80%;
+}
  .intro-text {
  padding-top:18%;
+ padding-bottom: 9em;
  }
- 
  h4 {
     padding: 0 0 0 40rem;
 	}
