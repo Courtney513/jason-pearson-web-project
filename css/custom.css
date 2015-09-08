@@ -9,9 +9,30 @@
 	margin-bottom: 15rem;
 }
 /* ------------------- 
-	SPACING AND MARGIN
+	TYPOGRAPHY
 -------------------- */
-
+body {
+	font-size: 16px;
+	}
+* {
+	font-size: 1rem;
+}
+h1 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 2rem;
+	}
+h2 {
+	font-family: 'Nunito', sans-serif;
+	}
+h3 {
+	font-family: 'Nunito', sans-serif;
+	}
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+.intro-text {
+	font-size: 2rem;
+	}
 
 
 /* --------- 
@@ -37,6 +58,20 @@
 .panel {
 	background-color: #F3F2F2;
 	width: 100%;
+}
+.hero-button {
+	background-color:transparent;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:font-family: 'Nunito', sans-serif;
+	font-size:17px;
+	padding:9px 41px;
+	text-decoration:none;
 }
 /* --------- 
 	ABOUT
