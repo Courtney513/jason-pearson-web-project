@@ -8,6 +8,7 @@
 .section-margin {
 	margin-bottom: 15rem;
 }
+
 /* ------------------- 
 	TYPOGRAPHY
 -------------------- */
@@ -33,7 +34,6 @@ p {
 .intro-text {
 	font-size: 2rem;
 	}
-
 
 /* --------- 
 	HERO
@@ -110,6 +110,24 @@ p {
 /* --------- 
 	FOOTER
 ------------ */
+footer {
+	background-color:#72bc44;
+}
+h4, small {
+	color:#fff;	
+}
+
+.footer-phone-number a, .footer-email a {
+	color:#fff;
+}
+
+.footer-phone-number a:hover {
+	color:#0a8395;
+}
+
+.footer-email a:hover {
+	color:#0a8395;
+}
 /*.social-icons { -------SOCIAL ICON CSS---------
 display:inline;	
 }*/
