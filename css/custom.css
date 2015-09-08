@@ -20,16 +20,20 @@ body {
 }
 h1 {
 	font-family: 'Nunito', sans-serif;
-	font-size: 2rem;
+	font-size: 3rem;
+	color: #72bc44;
 	}
 h2 {
 	font-family: 'Nunito', sans-serif;
+	color:#72bc44;
 	}
 h3 {
 	font-family: 'Nunito', sans-serif;
+	color:#72bc44;
 	}
 p {
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #0a8395;
 	}
 .intro-text {
 	font-size: 2rem;
@@ -64,15 +68,19 @@ p {
 	-moz-border-radius:14px;
 	-webkit-border-radius:14px;
 	border-radius:14px;
-	border:2px solid #18ab29;
+	border:2px solid #72bc44;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family:font-family: 'Nunito', sans-serif;
+	color:#72bc44;
+	font-family: 'Nunito', sans-serif;
 	font-size:17px;
 	padding:9px 41px;
 	text-decoration:none;
 }
+a:hover.hero-button {
+	background-color: #72bc44;
+	color:#F8F5F6;
+	}
 /* --------- 
 	ABOUT
 ------------ */
