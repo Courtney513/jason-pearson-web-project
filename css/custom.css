@@ -81,6 +81,13 @@ a:hover.hero-button {
 	background-color: #72bc44;
 	color:#F8F5F6;
 	}
+.panel-green {
+	background-color:#72bc44;
+	}
+#testimonial-callout {
+	color: #F8F5F6;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
 /* --------- 
 	ABOUT
 ------------ */
