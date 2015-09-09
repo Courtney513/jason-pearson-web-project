@@ -63,7 +63,12 @@ p {
 	background-color: #F3F2F2;
 	width: 100%;
 }
-.hero-button {
+
+#form-button-align {
+    margin: 1rem 0 0 3.3rem;
+	}
+
+.hero-button, .contact-form-button {
 	background-color:transparent;
 	-moz-border-radius:14px;
 	-webkit-border-radius:14px;
@@ -77,7 +82,7 @@ p {
 	padding:9px 41px;
 	text-decoration:none;
 }
-a:hover.hero-button {
+a:hover.hero-button .contact-form-button {
 	background-color: #72bc44;
 	color:#F8F5F6;
 	}
@@ -127,9 +132,13 @@ img.test {
 
 /* ------------- 
 	CONTACT
------------------ */
+----------------- */ /*targeting all types of input for form. this a makes the form orange.*/
 
-	
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+	border: 3px solid #E49621;
+	margin:16px;
+}
+	/*targeting all types of input for form. this a makes the form orange.*/
 	
 	 /* ------------- 
 	CONTACT 
@@ -191,6 +200,7 @@ display:inline;
 .footer-contact-info {
 	padding: 0 2rem 2rem 0;
 }
+<<<<<<< Updated upstream
 .hero-button {
 	background-color:transparent;
 	-moz-border-radius:14px;
@@ -216,6 +226,14 @@ img.test {
 	position:relative;
 	top: 3em;
 	}
+=======
+
+#form-button-align {
+    margin: 1rem 0 0 3.3rem;
+	}
+	
+
+>>>>>>> Stashed changes
 }
 
 /*--------SMALL SCREENS------------*/
@@ -243,6 +261,14 @@ img.test {
 .footer-contact-info {
 	padding: 0 2rem 2rem 0;
 }
+
+form {
+margin:0 0 15rem 0;	
+}
+
+#form-button-align {
+    margin: 1rem 0 0 3.3rem;
+	}
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
@@ -279,6 +305,15 @@ img.test {
 	padding: 0 2rem 2rem 0;
 	margin-right: 0;
 }
+
+form {
+margin:0 0 15rem 0;	
+}
+
+#form-button-align {
+    margin: 1rem 0 0 3.3rem;
+	}
+	
 } /* min-width 1025px, large screens */
 
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
