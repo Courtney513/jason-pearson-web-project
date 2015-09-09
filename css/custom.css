@@ -54,7 +54,7 @@ p {
 	padding-bottom: 18.750em;
 }
 .intro-text p {
-	font-size: 1.25em;
+	font-size: 1em;
 }
 .left-margin {
 	margin-left: 3.125rem;
@@ -87,6 +87,20 @@ a:hover.hero-button {
 #testimonial-callout {
 	color: #F8F5F6;
 	font-family: 'Source Sans Pro', sans-serif;
+	}
+#click-below-txt {
+	font-size:.6em;See more testimonials!
+	color:white;
+	margin:0;
+	}
+.see-more-link {
+	color:white;
+	position:relative;
+	top:4em;
+	}
+img.test {
+	position:relative;
+	bottom: 3em;
 	}
 /* --------- 
 	ABOUT
@@ -169,7 +183,7 @@ display:inline;
 	padding-bottom: 0;
 }
 .intro-text p {
-	font-size: 1.25em;
+	font-size: .8em;
 }
 .form-center {
 	margin: 0 5rem;
@@ -177,6 +191,31 @@ display:inline;
 .footer-contact-info {
 	padding: 0 2rem 2rem 0;
 }
+.hero-button {
+	background-color:transparent;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:2px solid #72bc44;
+	display:inline-block;
+	cursor:pointer;
+	color:#72bc44;
+	font-family: 'Nunito', sans-serif;
+	font-size:12px;
+	padding:9px 15px;
+	text-decoration:none;
+	margin-bottom:1.563em;
+}
+.see-more-link {
+	color:white;
+	position:relative;
+	right: 3em;
+	top: .5em;
+	}
+img.test {
+	position:relative;
+	top: 3em;
+	}
 }
 
 /*--------SMALL SCREENS------------*/
@@ -184,7 +223,7 @@ display:inline;
 /*--------MEDIUM SCREENS------------*/
 @media only screen and (min-width: 40.063em) {
 .intro-text {
-	padding-top: 15%;
+	padding-top: 5%;
 	padding-bottom: .5em;
 }
 .hero {
@@ -207,10 +246,16 @@ display:inline;
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-#testimonial-callout-img {
-	text-align: center;
-	position: relative;
-}
+.see-more-link {
+	color:white;
+	position:relative;
+	top: 4em;
+	right: 2em;
+	}
+img.test {
+	position:relative;
+	top: 3em;
+	}
 /*--------MEDIUM SCREENS------------*/
 
 /*--------LARGE SCREENS------------*/
