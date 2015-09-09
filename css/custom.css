@@ -68,7 +68,7 @@ p {
     margin: 1rem 0 0 3.3rem;
 	}
 
-.hero-button, .contact-form-button {
+.hero-button {
 	background-color:transparent;
 	-moz-border-radius:14px;
 	-webkit-border-radius:14px;
@@ -82,7 +82,7 @@ p {
 	padding:9px 41px;
 	text-decoration:none;
 }
-a:hover.hero-button .contact-form-button {
+a:hover.hero-button {
 	background-color: #72bc44;
 	color:#F8F5F6;
 	}
@@ -138,6 +138,20 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	border: 3px solid #E49621;
 	margin:16px;
 }
+.contact-form-button {
+	background-color:transparent;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	border:2px solid #72bc44;
+	display:inline-block;
+	cursor:pointer;
+	color:#72bc44;
+	font-family: 'Nunito', sans-serif;
+	font-size:17px;
+	padding:9px 41px;
+	text-decoration:none;
+	}
 	/*targeting all types of input for form. this a makes the form orange.*/
 	
 	 /* ------------- 
