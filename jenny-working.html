@@ -98,9 +98,22 @@
   <div class="row">
     <blockquote>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. <cite>John Smith Lincoln, Nebraska </cite> </blockquote>
   </div>
-  <div class="row testimonial-img-margin"> <img src="http://placehold.it/200x250" alt="testimonial placeholder"> <img src="http://placehold.it/200x250" alt="testimonial placeholder"> <img src="http://placehold.it/200x250" alt="testimonial placeholder"> <img src="http://placehold.it/200x250" alt="testimonial placeholder"> <iframe width='320px' height='25px' src='http://www.byoaudio.com/tplay/B294216499d5734f08eba93cf1ad6e608IAAsBCYbPDorBGl0RGpWSXpVVVViIAAVZxJbBGx+eg' frameBorder='0'></iframe></div>
-  <div class="row testimonial-img-margin"> <img src="http://placehold.it/200x250" alt="testimonial placeholder"> <img src="http://placehold.it/200x250" alt="testimonial placeholder"> <img src="http://placehold.it/200x250" alt="testimonial placeholder"> <img src="http://placehold.it/200x250" alt="testimonial placeholder"> </div>
-</section>
+  <div class="row testimonial-img-margin">
+  	<div class="column"> 
+    	<audio id="audio1" src="http://thewinning.byoaudio.com/dmobile/ashleygregory.mp3"></audio>
+		<button class="play-button" onClick="play()"> <img src="img/play-symbol.png" onclick="this.src = this.src == offImg ? onImg : offImg;"></button>
+  		<img src="img/woman-testing-testimonial.png" alt="testimonial placeholder"> 
+  	</div>
+  <!--<img src="http://placehold.it/200x250" alt="testimonial placeholder"> 
+  <img src="http://placehold.it/200x250" alt="testimonial placeholder"> 
+  <img src="http://placehold.it/200x250" alt="testimonial placeholder"> 
+  <iframe width='320px' height='25px' src='http://www.byoaudio.com/tplay/B294216499d5734f08eba93cf1ad6e608IAAsBCYbPDorBGl0RGpWSXpVVVViIAAVZxJbBGx+eg' frameBorder='0'></iframe></div>
+  <div class="row testimonial-img-margin"> 
+  <img src="http://placehold.it/200x250" alt="testimonial placeholder"> 
+  <img src="http://placehold.it/200x250" alt="testimonial placeholder"> 
+  <img src="http://placehold.it/200x250" alt="testimonial placeholder"> 
+  <img src="http://placehold.it/200x250" alt="testimonial placeholder"> </div>
+</section> -->
 <!--================TESTIMONIALS==============--> 
 
 <!--================CONTACT==============-->
@@ -184,5 +197,18 @@
 <script>
       $(document).foundation();
     </script>
+<script>
+	function play() {
+    var audio = document.getElementById('audio1');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+    }
+}
+    var onImg= "img/play-symbol.png";
+	var offImg= "img/pause-symbol.png";
+</script>
 </body>
 </html>
