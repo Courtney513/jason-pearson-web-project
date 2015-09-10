@@ -13,7 +13,7 @@
 	TYPOGRAPHY
 -------------------- */
 body {
-	font-size: 16px;
+	font-size: 2rem;
 	}
 * {
 	font-size: 1rem;
@@ -45,13 +45,13 @@ p {
 .hero {
 	background: url(../img/hero-img-woman.jpg);
 	background-size: cover;
-	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	box-shadow: inset 0 0 0 125rem rgba(0,0,0,0.15);
 	height: 80%;
 }
 .intro-text {
 	padding-top: 20%;
 	color: rgba(255,255,255,1);
-	padding-bottom: 18.750em;
+	padding-bottom: 18.750rem;
 }
 .intro-text p {
 	font-size: 1em;
@@ -70,16 +70,16 @@ p {
 
 .hero-button {
 	background-color:transparent;
-	-moz-border-radius:14px;
-	-webkit-border-radius:14px;
-	border-radius:14px;
-	border:2px solid #72bc44;
+	-moz-border-radius:.875rem;
+	-webkit-border-radius:.875rem;
+	border-radius:.875rem;
+	border:.125rem solid #72bc44;
 	display:inline-block;
 	cursor:pointer;
 	color:#72bc44;
 	font-family: 'Nunito', sans-serif;
-	font-size:17px;
-	padding:9px 41px;
+	font-size:1.0625rem;
+	padding:.5625rem 2.5625rem;
 	text-decoration:none;
 }
 a:hover.hero-button {
@@ -94,18 +94,18 @@ a:hover.hero-button {
 	font-family: 'Source Sans Pro', sans-serif;
 	}
 #click-below-txt {
-	font-size:.6em;See more testimonials!
+	font-size:.6rem;See more testimonials!
 	color:white;
 	margin:0;
 	}
 .see-more-link {
 	color:white;
 	position:relative;
-	top:4em;
+	top:4rem;
 	}
 img.test {
 	position:relative;
-	bottom: 3em;
+	bottom: 3rem;
 	}
 /* --------- 
 	ABOUT
@@ -114,20 +114,20 @@ img.test {
 	background: url(../img/about-img-jason.png) no-repeat;
 	background-position: right;
 	background-repeat: no-repeat;
-	margin-top: 9.375em;
+	margin-top: 9.375rem;
 }
 #about-spacing {
-	margin-bottom: 9.375em;
+	margin-bottom: 9.375rem;
 }
 .about-paragraph {
-	margin-bottom: 80px;
+	margin-bottom: 5rem;
 }
 /* ------------- 
 	TESTIMONIALS
 ----------------- */
 #quote-spacing-section {
-	margin-top: 9.375em;
-	margin-bottom: 5em;
+	margin-top: 9.375rem;
+	margin-bottom: 5rem;
 }
 
 /* ------------- 
@@ -135,25 +135,37 @@ img.test {
 ----------------- */ /*targeting all types of input for form. this a makes the form orange.*/
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
-	border: 3px solid #E49621;
-	margin:16px;
+	border: .1875rem solid #E49621;
+	margin: 2rem;
 }
+
+
+
+/*makes the placeholder text blue
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea:hover {
+	border: .1875rem solid #0a8395;
+	margin:2rem;
+}
+makes the placeholder text blue*/
+
 .contact-form-button {
 	background-color:transparent;
-	-moz-border-radius:14px;
-	-webkit-border-radius:14px;
-	border-radius:14px;
-	border:2px solid #72bc44;
+	-moz-border-radius:.875rem;
+	-webkit-border-radius:.875rem;
+	border-radius:.875rem;
+	border:.125rem solid #72bc44;
 	display:inline-block;
 	cursor:pointer;
 	color:#72bc44;
 	font-family: 'Nunito', sans-serif;
-	font-size:17px;
-	padding:9px 41px;
+	font-size:1.0625rem;
+	padding:.5625rem 2.5625rem;
 	text-decoration:none;
 	}
 	/*targeting all types of input for form. this a makes the form orange.*/
 	
+		
 	 /* ------------- 
 	CONTACT 
 ----------------- */
@@ -198,7 +210,7 @@ display:inline;
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
 .hero {
-	background-size: 640px auto;
+	background-size: 40rem auto;
 	background-repeat: no-repeat;
 }
 .intro-text {
@@ -206,7 +218,7 @@ display:inline;
 	padding-bottom: 0;
 }
 .intro-text p {
-	font-size: .8em;
+	font-size: .8rem;
 }
 .form-center {
 	margin: 0 5rem;
@@ -214,40 +226,39 @@ display:inline;
 .footer-contact-info {
 	padding: 0 2rem 2rem 0;
 }
-<<<<<<< Updated upstream
 .hero-button {
 	background-color:transparent;
-	-moz-border-radius:14px;
-	-webkit-border-radius:14px;
-	border-radius:14px;
+	-moz-border-radius:.875rem;
+	-webkit-border-radius:.875rem;
+	border-radius:.875rem;
 	border:2px solid #72bc44;
 	display:inline-block;
 	cursor:pointer;
 	color:#72bc44;
 	font-family: 'Nunito', sans-serif;
-	font-size:12px;
-	padding:9px 15px;
+	font-size:.75rem;
+	padding:.5625rem .9375rem;
 	text-decoration:none;
-	margin-bottom:1.563em;
+	margin-bottom:1.563rem;
 }
 .see-more-link {
 	color:white;
 	position:relative;
-	right: 3em;
-	top: .5em;
+	right: 3rem;
+	top: .5rem;
 	}
 img.test {
 	position:relative;
-	top: 3em;
+	top: 3rem;
 	}
-=======
 
 #form-button-align {
     margin: 1rem 0 0 3.3rem;
 	}
 	
-
->>>>>>> Stashed changes
+	form {
+margin:0 0 15rem 0;	
+}
 }
 
 /*--------SMALL SCREENS------------*/
@@ -261,7 +272,7 @@ img.test {
 .hero {
 	background: url(../img/hero-img-woman.jpg) no-repeat;
 	background-size: 100%;
-	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	box-shadow: inset 0 0 0 125rem rgba(0,0,0,0.15);
 	height: 80%;
 }
 #about {
@@ -283,18 +294,22 @@ margin:0 0 15rem 0;
 #form-button-align {
     margin: 1rem 0 0 3.3rem;
 	}
+	
+	form {
+margin:0 0 15rem 0;	
+}
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 .see-more-link {
 	color:white;
 	position:relative;
-	top: 4em;
-	right: 2em;
+	top: 4rem;
+	right: 2rem;
 	}
 img.test {
 	position:relative;
-	top: 3em;
+	top: 3rem;
 	}
 /*--------MEDIUM SCREENS------------*/
 
@@ -305,12 +320,12 @@ img.test {
 .hero {
 	background: url(../img/hero-img-woman.jpg);
 	background-size: cover;
-	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+	box-shadow: inset 0 0 0 125rem rgba(0,0,0,0.15);
 	height: 80%;
 }
 .intro-text {
 	padding-top: 18%;
-	padding-bottom: 9em;
+	padding-bottom: 9rem;
 }
 .form-center-large {
 	padding: 0 0 0 27rem;
