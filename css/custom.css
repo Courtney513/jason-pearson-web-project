@@ -1,6 +1,35 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+
+
+
+
+#testimonials button:hover {
+	color:transparent;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------- 
 	SPACING AND MARGIN
 -------------------- */
@@ -111,9 +140,9 @@ img.test {
 	ABOUT
 ------------ */
 #about {
-	background: url(../img/about-img-jason.png) no-repeat;
+	background:url(../img/about-img-jason.jpg) no-repeat;
 	background-position: right;
-	background-repeat: no-repeat;
+	background-size: 650px auto;
 	margin-top: 9.375em;
 }
 #about-spacing {
@@ -129,6 +158,22 @@ img.test {
 	margin-top: 9.375em;
 	margin-bottom: 5em;
 }
+
+
+.play-button {
+	position: relative;
+	left: 150px;
+	height: 200px;
+	background:url(../img/play-symbol.png) center center no-repeat;
+	}
+
+
+
+
+
+
+
+
 
 /* ------------- 
 	CONTACT
