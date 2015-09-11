@@ -10,7 +10,20 @@
 	color:transparent;
 	}
 
-
+.contain-to-grid {
+	background-color:#72bc44;
+	}
+.top-bar {
+	background-color:#72bc44;
+	height: 4rem;
+	}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color:#72bc44;
+	line-height: 4rem;
+	}
+#Jason-top-bar {
+	font-size: 2rem;
+	}
 
 
 
@@ -142,7 +155,7 @@ img.test {
 #about {
 	background:url(../img/about-img-jason.jpg) no-repeat;
 	background-position: right;
-	background-size: 600px;
+	background-size: 300px;
 	background-repeat: no-repeat;
 	margin-top: 9.375rem;
 	background-size: 650px auto;
@@ -260,6 +273,12 @@ display:inline;
 .intro-text p {
 	font-size: .8rem;
 }
+#about {
+	background:url(../img/about-img-small-jason.png) no-repeat;
+	background-size: 13.750em;
+	background-position: right 1.250em;
+	background-repeat: no-repeat;
+}
 .form-center {
 	margin: 0 5rem;
 }
@@ -317,6 +336,7 @@ img.test {
 }
 #about {
 	background: url(../img/about-img-jason.png) no-repeat;
+	background-size: 40.625em;
 	background-position: right;
 	background-repeat: no-repeat;
 }
