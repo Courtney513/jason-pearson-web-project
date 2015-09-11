@@ -142,17 +142,14 @@ img.test {
 #about {
 	background:url(../img/about-img-jason.jpg) no-repeat;
 	background-position: right;
-<<<<<<< Updated upstream
 	background-size: 600px;
 	background-repeat: no-repeat;
 	margin-top: 9.375rem;
 	background-size: 650px auto;
 	margin-top: 9.375em;
-=======
 	background-repeat: no-repeat;
 	margin-top: 9.375rem;
 	background-size: 40.625rem auto;
->>>>>>> Stashed changes
 }
 #about-spacing {
 	margin-bottom: 9.375rem;
@@ -171,13 +168,10 @@ img.test {
 
 .play-button {
 	position: relative;
-<<<<<<< Updated upstream
 	background:url(../img/woman-testing-testimonial.png) center center no-repeat;
-=======
 	left: 9.375rem;
 	height: 12.5rem;
 	background:url(../img/play-symbol.png) center center no-repeat;
->>>>>>> Stashed changes
 	}
 
 
