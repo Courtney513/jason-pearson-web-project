@@ -142,13 +142,11 @@ img.test {
 #about {
 	background:url(../img/about-img-jason.jpg) no-repeat;
 	background-position: right;
-<<<<<<< HEAD
+	background-size: 600px;
 	background-repeat: no-repeat;
 	margin-top: 9.375rem;
-=======
 	background-size: 650px auto;
 	margin-top: 9.375em;
->>>>>>> origin/master
 }
 #about-spacing {
 	margin-bottom: 9.375rem;
@@ -167,9 +165,7 @@ img.test {
 
 .play-button {
 	position: relative;
-	left: 150px;
-	height: 200px;
-	background:url(../img/play-symbol.png) center center no-repeat;
+	background:url(../img/woman-testing-testimonial.png) center center no-repeat;
 	}
 
 
@@ -307,7 +303,7 @@ img.test {
 	}
 	
 	form {
-margin:0 0 15rem 0;	
+	margin:0 0 15rem 0;	
 }
 }
 
