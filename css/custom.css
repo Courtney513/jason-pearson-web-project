@@ -378,18 +378,3 @@ form {
 }
 }
 
-/*--------LARGE SCREENS------------*/
-
-/*--------EXTRA LARGE SCREENS------------*/
- /* min-width 1441px, xlarge screens */
-@media only screen and (min-width: 90.063em) {
-}
-
-/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {
-} /* min-width 1921px, xxlarge screens */
-
-@media only screen and (min-width: 120.063em) {
-} 
-
-/*--------EXTRA LARGE SCREENS------------*/
