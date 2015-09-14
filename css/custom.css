@@ -2,8 +2,15 @@
 /* CSS Document */
 
 
-
-
+.top-bar {
+	background-color: #72bc44;
+	}
+.contain-to-grid {
+	background-color: #72bc44;
+	}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #72bc44;
+	}
 
 
 #testimonials button:hover {
@@ -74,7 +81,7 @@ p {
 }
 
 #form-button-align {
-    margin: 1rem 0 0 3.3rem;
+    margin: 1rem 0 20rem 3.3rem;
 	}
 
 .hero-button {
@@ -232,6 +239,9 @@ display:inline;
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
+#about {
+	background-size: 250px;
+	}
 .hero {
 	background-size: 40rem auto;
 	background-repeat: no-repeat;
@@ -276,7 +286,7 @@ img.test {
 	}
 
 #form-button-align {
-    margin: 1rem 0 0 3.3rem;
+    margin: 1rem 0 20rem 3.3rem;
 	}
 	
 	form {
@@ -319,7 +329,7 @@ display:block;
 f
 
 #form-button-align {
-    margin: 1rem 0 0 3.3rem;
+    margin: 1rem 0 20rem 3.3rem;
 	}
 	
 label {
@@ -387,7 +397,7 @@ padding-right:0;
 }
 
 #form-button-align {
-    margin: 1rem 0 0 3.3rem;
+    margin: 1rem 0 20rem 3.3rem;
 	}
 	
 } /* min-width 1025px, large screens */
@@ -395,7 +405,7 @@ padding-right:0;
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
 	.form-center-large {
-	padding: 0 0 0 20rem;
+	padding: 10rem 0 0 20rem;
 }
 }
 
