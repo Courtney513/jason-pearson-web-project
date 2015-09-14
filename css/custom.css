@@ -122,14 +122,9 @@ img.test {
 #about {
 	background:url(../img/about-img-jason.jpg) no-repeat;
 	background-position: right;
-	background-size: 600px;
+	background-size: 37.5rem;
 	background-repeat: no-repeat;
 	margin-top: 9.375rem;
-	background-size: 650px auto;
-	margin-top: 9.375em;
-	background-repeat: no-repeat;
-	margin-top: 9.375rem;
-	background-size: 40.625rem auto;
 }
 #about-spacing {
 	margin-bottom: 9.375rem;
@@ -259,7 +254,7 @@ display:inline;
 	-moz-border-radius:.875rem;
 	-webkit-border-radius:.875rem;
 	border-radius:.875rem;
-	border:2px solid #72bc44;
+	border:0.125rem solid #72bc44;
 	display:inline-block;
 	cursor:pointer;
 	color:#72bc44;
@@ -350,7 +345,7 @@ img.test {
 	}
 	form {
 display:block;
-width:100px;
+width:6.25rem;
 padding-right:0;
 }
 	
