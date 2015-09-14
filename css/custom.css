@@ -156,8 +156,11 @@ img.test {
 	position: relative;
 	background:url(../img/testimonial-smiling-man-green.png) center center no-repeat;
 	}
-a.play-button {
+.play-button:hover {
 	background:url(../img/testimonial-smiling-female.png) center center no-repeat;
+	}
+.play-button-man:hover {
+	background:url(../img/testimonial-smiling-man.png) center center no-repeat;
 	}
 
 
