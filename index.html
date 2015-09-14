@@ -98,10 +98,12 @@
   <div class="row testimonial-img-margin small-centered"> 
   	<div class="row small-8 small-centered">
     	<div class="column small-4">
-  			<img src="img/testimonial-smiling-female.png" alt="testimonial picture of a woman"> 
+        	<audio id="audio1" src="http://thewinning.byoaudio.com/dmobile/ashleygregory.mp3"></audio>
+            <button class="play-button" onClick="play()"> <img src="img/play-symbol.png" onclick="this.src = this.src == offImg ? onImg : offImg;"></button>
         </div>
         <div class="column small-4">
-  			<img src="img/testimonial-smiling-man.png" alt="testimonial picture of a man"> 
+        	<audio src="http://thewinning.byoaudio.com/dmobile/gregrolfe.mp3"></audio>
+            <button class="play-button-man" onClick="play()"> <img src="img/play-symbol.png" onclick="this.src = this.src == offImg ? onImg : offImg;"></button> 
         </div>
     </div>
   </div>
@@ -191,5 +193,19 @@
 <script>
       $(document).foundation();
     </script>
+<script>
+	function play() {
+    var audio = document.getElementById('audio1');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+    }
+}
+    var onImg= "img/play-symbol.png";
+	var offImg= "img/pause-symbol.png";
+</script>
+
 </body>
 </html>

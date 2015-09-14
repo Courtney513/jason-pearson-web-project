@@ -181,7 +181,11 @@ img.test {
 
 .play-button {
 	position: relative;
-	background:url(../img/woman-testing-testimonial.png) center center no-repeat;
+	background:url(../img/testimonial-smiling-female.png) center center no-repeat;
+	}
+.play-button-man {
+	position: relative;
+	background:url(../img/testimonial-smiling-man.png) center center no-repeat;
 	}
 
 
