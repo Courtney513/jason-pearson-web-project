@@ -4,19 +4,16 @@
 
 .top-bar {
 	background-color: #72bc44;
-	}
+}
 .contain-to-grid {
 	background-color: #72bc44;
-	}
+}
 .top-bar-section li:not(.has-form) a:not(.button) {
 	background-color: #72bc44;
-	}
-
-
+}
 #testimonials button:hover {
-	color:transparent;
-	}
-
+	color: transparent;
+}
 /* ------------------- 
 	SPACING AND MARGIN
 -------------------- */
@@ -24,13 +21,12 @@
 .section-margin {
 	margin-bottom: 15rem;
 }
-
 /* ------------------- 
 	TYPOGRAPHY
 -------------------- */
 body {
 	font-size: 2rem;
-	}
+}
 * {
 	font-size: 1rem;
 }
@@ -38,23 +34,22 @@ h1 {
 	font-family: 'Nunito', sans-serif;
 	font-size: 3rem;
 	color: #72bc44;
-	}
+}
 h2 {
 	font-family: 'Nunito', sans-serif;
-	color:#72bc44;
-	}
+	color: #72bc44;
+}
 h3 {
 	font-family: 'Nunito', sans-serif;
-	color:#72bc44;
-	}
+	color: #72bc44;
+}
 p {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #0a8395;
-	}
+}
 .intro-text {
 	font-size: 2rem;
-	}
-
+}
 /* --------- 
 	HERO
 ------------ */
@@ -79,55 +74,53 @@ p {
 	background-color: #F3F2F2;
 	width: 100%;
 }
-
 #form-button-align {
-    margin: 1rem 0 20rem 3.3rem;
-	}
-
+	margin: 1rem 0 20rem 3.3rem;
+}
 .hero-button {
-	background-color:transparent;
-	-moz-border-radius:.875rem;
-	-webkit-border-radius:.875rem;
-	border-radius:.875rem;
-	border:.125rem solid #72bc44;
-	display:inline-block;
-	cursor:pointer;
-	color:#72bc44;
+	background-color: transparent;
+	-moz-border-radius: .875rem;
+	-webkit-border-radius: .875rem;
+	border-radius: .875rem;
+	border: .125rem solid #72bc44;
+	display: inline-block;
+	cursor: pointer;
+	color: #72bc44;
 	font-family: 'Nunito', sans-serif;
-	font-size:1.0625rem;
-	padding:.5625rem 2.5625rem;
-	text-decoration:none;
+	font-size: 1.0625rem;
+	padding: .5625rem 2.5625rem;
+	text-decoration: none;
 }
 a:hover.hero-button {
 	background-color: #72bc44;
-	color:#F8F5F6;
-	}
+	color: #F8F5F6;
+}
 .panel-green {
-	background-color:#72bc44;
-	}
+	background-color: #72bc44;
+}
 #testimonial-callout {
 	color: #F8F5F6;
 	font-family: 'Source Sans Pro', sans-serif;
-	}
+}
 #click-below-txt {
-	font-size:.6rem;
-	color:white;
-	margin:0;
-	}
+	font-size: .6rem;
+	color: white;
+	margin: 0;
+}
 .see-more-link {
-	color:white;
-	position:relative;
-	top:4rem;
-	}
+	color: white;
+	position: relative;
+	top: 4rem;
+}
 img.test {
-	position:relative;
+	position: relative;
 	bottom: 3rem;
-	}
+}
 /* --------- 
 	ABOUT
 ------------ */
 #about {
-	background:url(../img/about-img-jason.jpg) no-repeat;
+	background: url(../img/about-img-jason.jpg) no-repeat;
 	background-position: right;
 	background-size: 37.5rem;
 	background-repeat: no-repeat;
@@ -146,31 +139,20 @@ img.test {
 	margin-top: 9.375rem;
 	margin-bottom: 5rem;
 }
-
-
 .play-button {
 	position: relative;
-	background:url(../img/testimonial-smiling-female-orange.png) center center no-repeat;
-	}
+	background: url(../img/testimonial-smiling-female-orange.png) center center no-repeat;
+}
 .play-button-man {
 	position: relative;
-	background:url(../img/testimonial-smiling-man-green.png) center center no-repeat;
-	}
+	background: url(../img/testimonial-smiling-man-green.png) center center no-repeat;
+}
 .play-button:hover {
-	background:url(../img/testimonial-smiling-female.png) center center no-repeat;
-	}
+	background: url(../img/testimonial-smiling-female.png) center center no-repeat;
+}
 .play-button-man:hover {
-	background:url(../img/testimonial-smiling-man.png) center center no-repeat;
-	}
-
-
-
-
-
-
-
-
-
+	background: url(../img/testimonial-smiling-man.png) center center no-repeat;
+}
 /* ------------- 
 	CONTACT
 ----------------- */ /*targeting all types of input for form. this a makes the form orange.*/
@@ -178,30 +160,27 @@ img.test {
 
 
 label {
-display:block;	
+	display: block;
 }
-
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
 	border: .1875rem solid #E49621;
 	margin: 2rem;
 }
-
-
 .contact-form-button {
-	background-color:transparent;
-	-moz-border-radius:.875rem;
-	-webkit-border-radius:.875rem;
-	border-radius:.875rem;
-	border:.125rem solid #72bc44;
-	display:inline-block;
-	cursor:pointer;
-	color:#72bc44;
+	background-color: transparent;
+	-moz-border-radius: .875rem;
+	-webkit-border-radius: .875rem;
+	border-radius: .875rem;
+	border: .125rem solid #72bc44;
+	display: inline-block;
+	cursor: pointer;
+	color: #72bc44;
 	font-family: 'Nunito', sans-serif;
-	font-size:1.0625rem;
-	padding:.5625rem 2.5625rem;
-	text-decoration:none;
-	}
-	/*targeting all types of input for form. this a makes the form orange.*/
+	font-size: 1.0625rem;
+	padding: .5625rem 2.5625rem;
+	text-decoration: none;
+}
+/*targeting all types of input for form. this a makes the form orange.*/
 	
 	 /* ------------- 
 	CONTACT 
@@ -212,23 +191,21 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	FOOTER
 ------------ */
 footer {
-	background-color:#72bc44;
+	background-color: #72bc44;
 }
 h4, small {
-	color:#fff;	
+	color: #fff;
 }
-
 .footer-phone-number a, .footer-email a {
-	color:#fff;
+	color: #fff;
 }
-
 .footer-phone-number a:hover {
-	color:#0a8395;
+	color: #0a8395;
+}
+.footer-email a:hover {
+	color: #0a8395;
 }
 
-.footer-email a:hover {
-	color:#0a8395;
-}
 /*.social-icons { -------SOCIAL ICON CSS---------
 display:inline;	
 }*/
@@ -248,7 +225,7 @@ display:inline;
 @media only screen and (max-width: 40em) {
 #about {
 	background-size: 250px;
-	}
+}
 .hero {
 	background-size: 40rem auto;
 	background-repeat: no-repeat;
@@ -267,41 +244,38 @@ display:inline;
 	padding: 0 2rem 2rem 0;
 }
 .hero-button {
-	background-color:transparent;
-	-moz-border-radius:.875rem;
-	-webkit-border-radius:.875rem;
-	border-radius:.875rem;
-	border:0.125rem solid #72bc44;
-	display:inline-block;
-	cursor:pointer;
-	color:#72bc44;
+	background-color: transparent;
+	-moz-border-radius: .875rem;
+	-webkit-border-radius: .875rem;
+	border-radius: .875rem;
+	border: 0.125rem solid #72bc44;
+	display: inline-block;
+	cursor: pointer;
+	color: #72bc44;
 	font-family: 'Nunito', sans-serif;
-	font-size:.75rem;
-	padding:.5625rem .9375rem;
-	text-decoration:none;
-	margin-bottom:1.563rem;
+	font-size: .75rem;
+	padding: .5625rem .9375rem;
+	text-decoration: none;
+	margin-bottom: 1.563rem;
 }
 .see-more-link {
-	color:white;
-	position:relative;
+	color: white;
+	position: relative;
 	right: 3rem;
 	top: .5rem;
-	}
-img.test {
-	position:relative;
-	top: 3rem;
-	}
-
-#form-button-align {
-    margin: 1rem 0 20rem 3.3rem;
-	}
-	
-form {
-margin:0 0 15rem 0;
 }
-
+img.test {
+	position: relative;
+	top: 3rem;
+}
+#form-button-align {
+	margin: 1rem 0 20rem 3.3rem;
+}
+form {
+	margin: 0 0 15rem 0;
+}
 label {
-display:block;	
+	display: block;
 }
 }
 
@@ -324,9 +298,8 @@ display:block;
 	background-position: right;
 	background-repeat: no-repeat;
 }
-
 footer {
-width:100%;	
+	width: 100%;
 }
 .form-center {
 	margin: 0 10rem;
@@ -334,47 +307,39 @@ width:100%;
 .footer-contact-info {
 	padding: 0 2rem 2rem 0;
 }
-
-
-
 #form-button-align {
-    margin: 1rem 0 20rem 3.3rem;
-	}
-	
+	margin: 1rem 0 20rem 3.3rem;
+}
 label {
-display:block;	
+	display: block;
 }
-
 form {
-margin:0 0 15rem 0;
+	margin: 0 0 15rem 0;
 }
-
 } /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 .see-more-link {
-	color:white;
-	position:relative;
+	color: white;
+	position: relative;
 	top: 4rem;
 	right: 2rem;
-	}
-img.test {
-	position:relative;
-	top: 3rem;
-	}
-	form {
-display:block;
-width:6.25rem;
-padding-right:0;
 }
-	
-	label {
-display:block;	
+img.test {
+	position: relative;
+	top: 3rem;
+}
+form {
+	    display: block;
+    width: 100%;
+    padding-right: 0;
+	margin: 0 0 15rem 0;
 }
 
-form {
-margin:0 0 15rem 0;
+label {
+	display: block;
 }
+
 /*--------MEDIUM SCREENS------------*/
 
 /*--------LARGE SCREENS------------*/
@@ -391,25 +356,24 @@ margin:0 0 15rem 0;
 	padding-top: 18%;
 	padding-bottom: 9rem;
 }
-
 .footer-contact-info {
 	padding: 0 2rem 2rem 0;
 	margin-right: 0;
 }
-
 form {
-margin:0 0 15rem 0;
+	margin: 0 0 15rem 0;
+	display: block;
+	width: 100%;
+	padding-right: 0;
 }
-
 #form-button-align {
-    margin: 1rem 0 20rem 3.3rem;
-	}
-	
+	margin: 1rem 0 20rem 3.3rem;
+}
 } /* min-width 1025px, large screens */
 
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
-	.form-center-large {
+.form-center-large {
 	padding: 10rem 0 0 20rem;
 }
 }
