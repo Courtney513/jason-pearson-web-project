@@ -228,7 +228,10 @@ display:inline;
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
 #about {
-	background-size: 250px;
+	background-size: 12.5em;
+	padding:0 0 9.375em 0;
+	background-position-y: 1450px;
+	background-position-x: 108px;
 }
 .hero {
 	background-size: 100%;
@@ -371,7 +374,7 @@ form {
 	padding-right: 0;
 }
 #form-button-align {
-	margin: 1rem 0 20rem 3.3rem;
+	margin: 1rem 0 15rem 3.3rem;
 }
 } /* min-width 1025px, large screens */
 
