@@ -269,11 +269,12 @@ display:inline;
 	color: white;
 	position: relative;
 	right: 3rem;
-	top: .5rem;
+	top: .8rem;
+	font-size: .8em;
 }
 img.test {
 	position: relative;
-	top: 3rem;
+	top: 2rem;
 }
 #form-button-align {
 	margin: 1rem 0 10rem 3.3rem;
@@ -284,6 +285,13 @@ form {
 label {
 	display: block;
 }
+#testimonial-callout {
+	font-size: .7em;
+	position:relative;
+	top: 2em;
+	padding:0 0 0 .6em;
+	}
+
 }
 
 /*--------SMALL SCREENS------------*/
