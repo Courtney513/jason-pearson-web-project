@@ -153,6 +153,10 @@ img.test {
 .play-button-man:hover {
 	background: url(../img/testimonial-smiling-man.png) center center no-repeat;
 }
+.testimonial-img-padding {
+	padding:0;
+	}
+
 /* ------------- 
 	CONTACT
 ----------------- */ /*targeting all types of input for form. this a makes the form orange.*/
