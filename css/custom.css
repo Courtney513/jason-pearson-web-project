@@ -231,6 +231,13 @@ display:inline;
 /* --------- ----
 	MEDIA QUERIES
 ----------------- */
+/*--------PORTRAIT VIEW------------*/
+
+@media only screen and (orientation:portrait){
+	
+}
+/*--------PORTRAIT VIEW------------*/
+
 /*--------SMALL SCREENS------------*/
 @media only screen {
 } /* Define mobile styles */
