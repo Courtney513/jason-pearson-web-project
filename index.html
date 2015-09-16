@@ -38,19 +38,17 @@
 	HERO
 ==================-->
 <section id="home">
-<div class="hero">
-        <div class="row">
-          <div class="small-9 columns intro-text">
-            <p>Thanks for coming to my website! My name is Jason Pearson, a personal nutritionist, determined to help you.</p>
-      <p id="click-below-txt">Click below to hear audio.</p>
-      <a href="#" class="hero-button">CLICK HERE</a> 
-          </div>
-        </div>
-      </div>
+  <div class="hero">
+    <div class="row">
+      <div class="small-9 columns intro-text">
+        <p>Thanks for coming to my website! My name is Jason Pearson, a personal nutritionist, determined to help you.</p>
+        <p id="click-below-txt">Click below to hear audio.</p>
+        <a href="#" class="hero-button">CLICK HERE</a> </div>
+    </div>
+  </div>
   <div class="panel-green">
     <div class="row">
-      <div class="small-3 medium-2 columns" id="testimonial-callout-img" > 
-      	<img class="test" src="img/woman-testimonial-callout.png" alt="Testimonial picture"></div>
+      <div class="small-3 medium-2 columns" id="testimonial-callout-img" > <img class="test" src="img/woman-testimonial-callout.png" alt="Testimonial picture"></div>
       <div class="small-9 columns">
         <blockquote id="testimonial-callout" class="hero-type">Lorem ipsum dolor sit amet, id ignota possit officiis eos, utinam graecis postulant eam id. </blockquote>
       </div>
@@ -60,7 +58,6 @@
     </div>
   </div>
 </section>
-
 
 <!-- ============= 
 	ABOUT
@@ -95,21 +92,21 @@
   <div class="row small-centered">
     <blockquote id="quote-spacing-section">I was a little bit skeptical just because i had tried many different programs before with no success.<cite>Ashey Greggory Lincoln, Nebraska </cite> </blockquote>
   </div>
-  <div class="row testimonial-img-margin small-centered"> 
-  	<div class="row">
-  <div class="small-12 medium-6 large-5 columns small-centered">
+  <div class="row testimonial-img-margin small-centered">
     <div class="row">
-    	<div class="column small-6 testimonial-img-padding">
-        	<audio id="audio1" src="http://thewinning.byoaudio.com/dmobile/ashleygregory.mp3"></audio>
+      <div class="small-12 medium-6 large-5 columns small-centered">
+        <div class="row">
+          <div class="column small-6 testimonial-img-padding">
+            <audio id="audio1" src="http://thewinning.byoaudio.com/dmobile/ashleygregory.mp3"></audio>
             <button class="play-button" onclick="play()"> <img src="img/play-symbol.png" onclick="this.src = this.src == offImg ? onImg : offImg;" alt="testimonial-play"></button>
+          </div>
+          <div class="column small-6 testimonial-img-padding end">
+            <audio src="http://thewinning.byoaudio.com/dmobile/gregrolfe.mp3"></audio>
+            <button class="play-button-man" onclick="play()"> <img src="img/play-symbol.png" onclick="this.src = this.src == offImg ? onImg : offImg;" alt="testimonial-play"></button>
+          </div>
         </div>
-        <div class="column small-6 testimonial-img-padding end">
-        	<audio src="http://thewinning.byoaudio.com/dmobile/gregrolfe.mp3"></audio>
-            <button class="play-button-man" onclick="play()"> <img src="img/play-symbol.png" onclick="this.src = this.src == offImg ? onImg : offImg;" alt="testimonial-play"></button> 
-        </div>
+      </div>
     </div>
-  </div>
-</div>
   </div>
 </section>
 <!--================TESTIMONIALS==============--> 
@@ -121,27 +118,21 @@
       <h2>Contact</h2>
     </div>
   </div>
-  <form class="form-center-large">
+  <form method="post" action="contactengine.php" class="form-center-large">
     <div class="row">
       <div class=" large-6  columns">
-        <label>
-          <input type="text" placeholder="First Name" />
-        </label>
-      </div>
-    </div>
-    <div class="row">
-      <div class=" large-6 columns">
-        <label>
-          <input type="text" placeholder="Last Name" />
+        <label for="Name">
+          <input type="text" name="Name" placeholder="First and last name" />
         </label>
       </div>
     </div>
     <div class="row">
       <div class="large-6  columns">
         <div class="row collapse">
-          <label> </label>
           <div>
-            <input type="text" placeholder="Email" />
+            <label for="Email">
+              <input type="text" name="Email" placeholder="Email" />
+            </label>
           </div>
           <div class=" columns"> </div>
         </div>
@@ -149,8 +140,8 @@
     </div>
     <div class="row">
       <div class="large-6 medium-12 columns">
-        <label>
-          <textarea placeholder="Insert Message Here"></textarea>
+        <label for="Message">
+          <textarea name="Message" placeholder="Insert Message Here"></textarea>
         </label>
       </div>
     </div>
@@ -167,26 +158,25 @@
       </div>
     </div>
     <div class="row">
-      <div class="columns footer-phone-number"> <a href="tel:+14024990063" target="_blank" class="right">+1-402-499-0063</a> 
-      </div>
-      </div>
-      <div class="row">
-        <div class="columns footer-email"> <a href="mailto:theonlineformula@gmail.com" class="right">theonlineformula@gmail.com</a> </div>
-      </div>
-      <div class="row">
-        <div class="small-12 columns"> <small class="copywrite right">Jason Pearson Diet © 2015</small> </div>
-      </div>
+      <div class="columns footer-phone-number"> <a href="tel:+14024990063" target="_blank" class="right">+1-402-499-0063</a> </div>
     </div>
+    <div class="row">
+      <div class="columns footer-email"> <a href="mailto:theonlineformula@gmail.com" class="right">theonlineformula@gmail.com</a> </div>
+    </div>
+    <div class="row">
+      <div class="small-12 columns"> <small class="copywrite right">Jason Pearson Diet © 2015</small> </div>
+    </div>
+  </div>
 </footer>
-<!--================FOOTER==============-->
+<!--================FOOTER==============--> 
 <script src="js/vendor/modernizr.js"></script> 
 <script src="js/vendor/jquery.js"></script> 
 <script src="js/foundation.min.js"></script> 
 <script src="js/foundation/foundation.topbar.js"></script> 
-<script src="js/smoothscroll.js"></script>
+<script src="js/smoothscroll.js"></script> 
 <script>
       $(document).foundation();
-    </script>
+    </script> 
 <script>
 	function play() {
     var audio = document.getElementById('audio1');
@@ -199,8 +189,8 @@
 }
     var onImg= "img/play-symbol.png";
 	var offImg= "img/pause-symbol.png";
-</script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</script> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
 <script type="text/javascript" src="javascript/smoothscroll.js"></script>
 </body>
 </html>
