@@ -188,8 +188,17 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 /*targeting all types of input for form. this a makes the form orange.*/
 	
 	 /* ------------- 
-	CONTACT 
+	CONTACT-THANK YOU 
 ----------------- */
+.thank-you-message {
+	margin: 12.5rem 0 0 12.5rem;
+	}
+
+
+
+
+
+
 
 	
 /* --------- 
@@ -302,7 +311,13 @@ label {
 	margin-bottom: 10rem;
 	padding: 2em;
 }
-
+.thank-you-message {
+	margin: 6.5rem 0 0 4.5rem;
+	font-size:1.5rem;
+	}
+a.thank-you-message {
+	font-size: 1rem;
+	}
 }
 
 /*--------SMALL SCREENS------------*/
