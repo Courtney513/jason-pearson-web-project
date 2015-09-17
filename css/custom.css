@@ -171,7 +171,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	border: .1875rem solid #E49621;
 	margin: 2rem;
 }
-.contact-form-button {
+/*.contact-form-button {
 	background-color: transparent;
 	-moz-border-radius: .875rem;
 	-webkit-border-radius: .875rem;
@@ -184,7 +184,28 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	font-size: 1.0625rem;
 	padding: .5625rem 2.5625rem;
 	text-decoration: none;
-}
+}*/
+input[type="submit"] {
+	border-radius: .875rem;
+	}
+input[type="submit"]:hover {
+	background-color:#72bc44;
+	color:white;
+	}
+.submit-button {
+background-color: transparent;
+	-moz-border-radius: .875rem;
+	-webkit-border-radius: .875rem;
+	border-radius: .875rem;
+	border: .125rem solid #72bc44;
+	display: inline-block;
+	cursor: pointer;
+	color: #72bc44;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.0625rem;
+	padding: .5625rem 2.5625rem;
+	text-decoration: none;
+	}
 /*targeting all types of input for form. this a makes the form orange.*/
 	
 	 /* ------------- 
@@ -234,11 +255,32 @@ display:inline;
 /*--------PORTRAIT VIEW------------*/
 
 @media only screen and (orientation:portrait){
-	
+h2 {
+	margin-top: 15rem;
+	}
+.section-margin {
+	margin-bottom: 10rem;
+}
+#about-spacing {
+	margin-bottom: 9.375rem;
+	margin-top:0;
+}
 }
 /*--------PORTRAIT VIEW------------*/
 
 /*--------SMALL SCREENS------------*/
+
+@media only screen and (max-width: 39.9375em) { /* EXTRA SMALL SCREEN */
+#about {
+	background-size: 12.5em;
+	padding:0 0 9.375em 2em;
+	background-position-y: 1600px;
+	background-position-x: 108px;
+}
+.ex-small-offset {
+	margin-top:14rem;
+	}
+}
 @media only screen {
 } /* Define mobile styles */
 
@@ -247,7 +289,7 @@ display:inline;
 #about {
 	background-size: 12.5em;
 	padding:0 0 9.375em 2em;
-	background-position-y: 1420px;
+	background-position-y: 1500px;
 	background-position-x: 108px;
 }
 .hero {
@@ -325,6 +367,9 @@ label {
 a.thank-you-message {
 	font-size: 1rem;
 	}
+h2 {
+	margin-top: 0rem;
+	}
 }
 
 /*--------SMALL SCREENS------------*/
@@ -364,7 +409,8 @@ label {
 form {
 	margin: 0 0 15rem 0;
 }
-} /* min-width 641px, medium screens */
+
+ /* min-width 641px, medium screens */
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
 .see-more-link {
@@ -386,6 +432,10 @@ form {
 
 label {
 	display: block;
+}
+section#about {
+    background-position-x: 28.1rem;
+    background-position-y: 50rem;
 }
 
 /*--------MEDIUM SCREENS------------*/

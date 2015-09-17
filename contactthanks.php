@@ -28,17 +28,16 @@ footer {
         <li class="name">
           <h1><a id="Jason-top-bar" href="index.html#home">Jason Pearson</a></h1>
         </li>
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+       <!-- <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li> -->
       </ul>
-      <div class="top-bar-section"> 
-        <!-- Right Nav Section -->
+     <!-- <div class="top-bar-section"> 
         <ul class="right">
           <li><a href="index.html" class="smoothScroll">home</a></li>
           <li><a href="index.html#about" class="smoothScroll">about</a></li>
           <li><a href="index.html#testimonials" class="smoothScroll">testimonials</a></li>
           <li><a href="index.html#contact" class="smoothScroll">contact</a></li>
         </ul>
-      </div>
+      </div> -->
     </nav>
   </div>
 </header>
