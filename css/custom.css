@@ -272,11 +272,13 @@ h2 {
 
 @media only screen and (max-width: 39.9375em) { /* EXTRA SMALL SCREEN */
 #about {
-	background-size: 12.5em;
+	background-size: 0;
 	padding:0 0 9.375em 2em;
 	background-position-y: 1600px;
 	background-position-x: 108px;
 }
+
+
 .ex-small-offset {
 	margin-top:14rem;
 	}
@@ -292,6 +294,8 @@ h2 {
 	background-position-y: 1500px;
 	background-position-x: 108px;
 }
+
+
 .hero {
 	background-size: 100%;
     background-repeat: no-repeat;
