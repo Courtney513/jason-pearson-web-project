@@ -279,6 +279,32 @@ h2 {
 .ex-small-offset {
 	margin-top:14rem;
 	}
+.hero {
+	background: url(../img/hero-img-woman.jpg) no-repeat;
+	background-size: 100%;
+	/*box-shadow: inset 0 0 0 125rem rgba(0,0,0,0.15); */
+	height: 100%;
+}
+.panel-green {
+	background-color:purple;
+	position:relative;
+	top:-50px;
+	}
+.hero-button {
+	background-color: transparent;
+	-moz-border-radius: .875rem;
+	-webkit-border-radius: .875rem;
+	border-radius: .875rem;
+	border: 0.125rem solid #72bc44;
+	display: inline-block;
+	cursor: pointer;
+	color: #72bc44;
+	font-family: 'Nunito', sans-serif;
+	font-size: .2rem;
+	padding: .2rem .5rem;
+	text-decoration: none;
+	margin-bottom: 0rem;
+}
 }
 @media only screen {
 } /* Define mobile styles */
