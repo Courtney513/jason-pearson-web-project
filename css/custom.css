@@ -272,7 +272,7 @@ h2 {
 
 @media only screen and (max-width: 39.9375em) { /* EXTRA SMALL SCREEN */
 #about {
-	background-size: 0;
+	background-size: 12.5em;
 	padding:0 0 9.375em 2em;
 	background-position-y: 1600px;
 	background-position-x: 108px;
