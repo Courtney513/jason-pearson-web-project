@@ -1,28 +1,31 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* TABLE OF CONTENTS 
 
-.top-bar {
-	background-color: #72bc44;
-}
-.contain-to-grid {
-	background-color: #72bc44;
-}
-.top-bar-section li:not(.has-form) a:not(.button) {
-	background-color: #72bc44;
-}
-#testimonials button:hover {
-	color: transparent;
-}
+00. SPACING
+01. TYPOGRAPHY
+02. NAVIGATION
+03. HERO
+04. ABOUT
+05. TESTIMONIALS
+06. CONTACT
+	6.1 CONTACT THANK-YOU
+07. FOOTER
+08. MEDIA QUERIES 
+
+*/
+
+
 /* ------------------- 
-	SPACING AND MARGIN
+00. SPACING
 -------------------- */
 
 .section-margin {
 	margin-bottom: 15rem;
 }
 /* ------------------- 
-	TYPOGRAPHY
+01. TYPOGRAPHY
 -------------------- */
 body {
 	font-size: 2rem;
@@ -51,8 +54,20 @@ p {
 .intro-text {
 	font-size: 2rem;
 }
+/* -------------
+02. NAVIGATION
+---------------- */
+.top-bar {
+	background-color: #72bc44;
+}
+.contain-to-grid {
+	background-color: #72bc44;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #72bc44;
+}
 /* --------- 
-	HERO
+03. HERO
 ------------ */
 .hero {
 	background: url(../img/hero-img-woman.jpg);
@@ -118,7 +133,7 @@ img.test {
 	bottom: 3rem;
 }
 /* --------- 
-	ABOUT
+04. ABOUT
 ------------ */
 #about {
 	background: url(../img/about-img-jason.jpg) no-repeat;
@@ -134,7 +149,7 @@ img.test {
 	margin-bottom: 5rem;
 }
 /* ------------- 
-	TESTIMONIALS
+05. TESTIMONIALS
 ----------------- */
 #quote-spacing-section {
 	margin-top: 9.375rem;
@@ -157,9 +172,12 @@ img.test {
 .testimonial-img-padding {
 	padding:0;
 	}
+#testimonials button:hover {
+	color: transparent;
+}
 
 /* ------------- 
-	CONTACT
+06. CONTACT
 ----------------- */ /*targeting all types of input for form. this a makes the form orange.*/
 
 
@@ -171,20 +189,6 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 	border: .1875rem solid #E49621;
 	margin: 2rem;
 }
-/*.contact-form-button {
-	background-color: transparent;
-	-moz-border-radius: .875rem;
-	-webkit-border-radius: .875rem;
-	border-radius: .875rem;
-	border: .125rem solid #72bc44;
-	display: inline-block;
-	cursor: pointer;
-	color: #72bc44;
-	font-family: 'Nunito', sans-serif;
-	font-size: 1.0625rem;
-	padding: .5625rem 2.5625rem;
-	text-decoration: none;
-}*/
 input[type="submit"] {
 	border-radius: .875rem;
 	}
@@ -208,8 +212,8 @@ background-color: transparent;
 	}
 /*targeting all types of input for form. this a makes the form orange.*/
 	
-	 /* ------------- 
-	CONTACT-THANK YOU 
+/* ------------- 
+6.1 CONTACT-THANK YOU 
 ----------------- */
 .thank-you-message {
 	margin: 12.5rem 0 0 12.5rem;
@@ -223,7 +227,7 @@ background-color: transparent;
 
 	
 /* --------- 
-	FOOTER
+07. FOOTER
 ------------ */
 footer {
 	background-color: #72bc44;
@@ -241,16 +245,8 @@ h4, small {
 	color: #0a8395;
 }
 
-/*.social-icons { -------SOCIAL ICON CSS---------
-display:inline;	
-}*/
-
-
-/* --------- 
-	FOOTER
------------- */
 /* --------- ----
-	MEDIA QUERIES
+08. MEDIA QUERIES
 ----------------- */
 /*--------PORTRAIT VIEW------------*/
 
@@ -266,7 +262,6 @@ h2 {
 	margin-top:0;
 }
 }
-/*--------PORTRAIT VIEW------------*/
 
 /*--------SMALL SCREENS------------*/
 
